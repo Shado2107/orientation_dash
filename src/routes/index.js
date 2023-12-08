@@ -1,5 +1,5 @@
 import { createHashRouter } from "react-router-dom";
-import { Login, Register } from "../pages";
+import { Home, Login, Register } from "../pages";
 
 const router  = createHashRouter([
     {
@@ -10,6 +10,10 @@ const router  = createHashRouter([
         path:"/register",
         element: Register()
     },
+    {
+        path: "/home",
+        element: Home()
+    }
     // {
     //     path:"*",
     //     element: Register()
