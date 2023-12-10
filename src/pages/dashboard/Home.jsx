@@ -1,11 +1,12 @@
-import { Main, Navbar } from "../../layouts";
+import { Main, Navbar, Sidebar } from "../../layouts";
 
 const Home = () => {
     return (
         <>
-            <Navbar/>
-
+           <Navbar/>
+            <Sidebar/>
             <Main>
+            
                 okokokok
             </Main>
         
